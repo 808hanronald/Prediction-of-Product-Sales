@@ -6,7 +6,7 @@ Ronald Han
 #### A small outlet can have thousands of products.  It can be daunting task knowing what products to order..?.. "yet" why these products sell at this particular store.
 
 ### Data Source:
- https://drive.google.com/file/d/1oA8uMVhONvSH30dmeNfFDewMQSI51DO_/view?usp=drive_link
+ ![]https://drive.google.com/file/d/1oA8uMVhONvSH30dmeNfFDewMQSI51DO_/view?usp=drive_link
 
 ### Data Dictionary:
 
@@ -23,7 +23,7 @@ Report the most important metrics
 Refer to the metrics to describe how well the model would solve the business problems
 
 ## Recommendations
-
+---
 
 ### Limitations and Next steps
 
