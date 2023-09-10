@@ -17,6 +17,9 @@ https://drive.google.com/file/d/1oA8uMVhONvSH30dmeNfFDewMQSI51DO_/view?usp=drive
      - 
 
 ## Results    
+![outlet type](https://github.com/808hanronald/Prediction-of-Product-Sales/assets/140451609/080bd1b4-4442-4e6c-8533-4a6444b595db)
+
+
 
 ![msrp](https://github.com/808hanronald/Prediction-of-Product-Sales/assets/140451609/d50902fd-057b-4dc3-a03c-a0ef8091cfbb)
 
