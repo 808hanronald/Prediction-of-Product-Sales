@@ -18,6 +18,10 @@ https://drive.google.com/file/d/1oA8uMVhONvSH30dmeNfFDewMQSI51DO_/view?usp=drive
 
 ## Results    
 
+![msrp](https://github.com/808hanronald/Prediction-of-Product-Sales/assets/140451609/d50902fd-057b-4dc3-a03c-a0ef8091cfbb)
+
+
+
 ## Model
 Describe your final model
 Report the most important metrics
