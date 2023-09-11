@@ -1,4 +1,4 @@
-# Uncovering properties of product ad outlets to increase sales output
+# Uncovering properties of product and outlets to increase sales output
 
 ### Analyizing popular products and outlets to increase sales
 Ronald Han
