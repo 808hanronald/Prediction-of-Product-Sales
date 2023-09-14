@@ -9,25 +9,25 @@ Ronald Han
 https://drive.google.com/file/d/1oA8uMVhONvSH30dmeNfFDewMQSI51DO_/view?usp=drive_link
 
 ### Data Dictionary:
-**Item_Fat_Content:**  Whether the product is low-fat or regular
+**Item_Fat_Content:**  *Whether the product is low-fat or regular*
 
-**Item_Visibility:**  The percentage of total display area of all products in a store allocated to the particular product
+**Item_Visibility:**  *The percentage of total display area of all products in a store allocated to the particular product*
 
-**Item_Type:**  The category to which the product belongs
+**Item_Type:**  *The category to which the product belongs*
 
-**Item_MRP:**  Maximum Retail Price (list price) of the product
+**Item_MRP:**  *Maximum Retail Price (list price) of the product*
 
-**Outlet_Identifier:**  	Store ID
+**Outlet_Identifier:**  	*Store ID*
 
-**Outlet_Establishment_Year:**  The year in which store was established
+**Outlet_Establishment_Year:**  *The year in which store was established*
 
-**Outlet_Size:**  The size of the store in terms of ground area covered
+**Outlet_Size:**  *The size of the store in terms of ground area covered*
 
-**Outlet_Location_Type:**  The type of area in which the store is locate
+**Outlet_Location_Type:**  •The type of area in which the store is locate•
 
-**Outlet_Type:**  Whether the outlet is a grocery store or some sort of supermarket
+**Outlet_Type:**  •Whether the outlet is a grocery store or some sort of supermarket•
 
-**Item_Outlet_Sales:**  Sales of the product in the particular store. This is the target variable to be predicted.
+**Item_Outlet_Sales:**  •Sales of the product in the particular store. This is the target variable to be predicted.•
 
 ## Methods
   - 
