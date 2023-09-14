@@ -3,7 +3,7 @@
 ### Analyizing popular products and outlets to increase sales
 Ronald Han
 
-#### A small outlet can have thousands of products.  It can be daunting task knowing what products to order..?.. "yet" why these products sell at this particular store.
+#### Knowing what products to order for a small outlet let alone a large supermarket can be a daunting task, but is crucial for the success of the business.  Understanding why certain products sell well at a particular store can not only stream line your ordering process but also help make infromed decision to guide their way to a higher profit. 
 
 ### Data Source:
 https://drive.google.com/file/d/1oA8uMVhONvSH30dmeNfFDewMQSI51DO_/view?usp=drive_link
