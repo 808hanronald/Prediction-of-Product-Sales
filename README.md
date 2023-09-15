@@ -52,9 +52,6 @@ https://drive.google.com/file/d/1oA8uMVhONvSH30dmeNfFDewMQSI51DO_/view?usp=drive
   - Supermarket Type 3 has the higest sales
   - Grocery Stores have the lowest sales
 
-![importances](https://github.com/808hanronald/Prediction-of-Product-Sales/assets/140451609/974eaa9f-2e57-4173-a54b-3d6744d8db0a)
-  - What feature were important in our Random Tree model
-  - Item_MRP had profound effect on our target
 
 
 
@@ -65,6 +62,13 @@ https://drive.google.com/file/d/1oA8uMVhONvSH30dmeNfFDewMQSI51DO_/view?usp=drive
 
 #### Model Evaluated and Results
 
+![importances](https://github.com/808hanronald/Prediction-of-Product-Sales/assets/140451609/974eaa9f-2e57-4173-a54b-3d6744d8db0a)
+  - What feature were important in our Random Tree model
+  - Item_MRP had profound effect on our target
+
+![top 15 coeffs](https://github.com/808hanronald/Prediction-of-Product-Sales/assets/140451609/c61ce865-f588-4667-bde4-b3447b376890)
+
+ 
   - Random Forest Regressor Test
     - MAE = 815.029
     - MSE = 1,349,902.7
