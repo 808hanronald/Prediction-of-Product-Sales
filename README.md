@@ -1,7 +1,7 @@
 # Uncovering properties of product and outlets to increase sales output
 
 ### Analyizing popular products and outlets to increase sales
-Ronald Han
+Author: Ronald Han
 
 #### Knowing what products to order for a small outlet let alone a large supermarket can be a daunting task, but is crucial for the success of the business.  Understanding why certain products sell well at a particular store can not only stream line your ordering process but also help make infromed decision to guide the way to a higher profit. 
 
@@ -34,13 +34,13 @@ https://drive.google.com/file/d/1oA8uMVhONvSH30dmeNfFDewMQSI51DO_/view?usp=drive
 ##### Exploring the Data
 
   - Barplots for items we sell
-  - Scatter plots for numerical features correlation to sales
+  - Scatter plots for numerical features correlation's to sales
 
 ![item](https://github.com/808hanronald/Prediction-of-Product-Sales/assets/140451609/95dc87c6-dfb1-44b2-8fba-1c61d9fe1ad7)
   - Count for item we sell
 
 ![msrp](https://github.com/808hanronald/Prediction-of-Product-Sales/assets/140451609/d50902fd-057b-4dc3-a03c-a0ef8091cfbb)
-  - Numeric Scatter plot to view the relationship postive correlation between item MSRP and sales
+  - Numeric Scatter plot to view the relationship's postive correlation between item MSRP and sales
 
 ##### Explaing the Data
 
@@ -53,7 +53,7 @@ https://drive.google.com/file/d/1oA8uMVhONvSH30dmeNfFDewMQSI51DO_/view?usp=drive
   - Grocery Stores have the lowest sales
 
 ![importances](https://github.com/808hanronald/Prediction-of-Product-Sales/assets/140451609/974eaa9f-2e57-4173-a54b-3d6744d8db0a)
-  - What featurse were important in our Random Tree model
+  - What feature were important in our Random Tree model
   - Item_MRP had profound effect on our target
 
 
@@ -72,20 +72,34 @@ https://drive.google.com/file/d/1oA8uMVhONvSH30dmeNfFDewMQSI51DO_/view?usp=drive
     - R^2 = .562
 
   - Tuned Random Forest Regressor Test
+    - MAE = 789.85
+    - MSE = 1,257.251.652
+    - RMSE = 1.121.272
+    - R^2 = .592
 
+  - Linear Regressor
+    - MAE = 859.968
+    - MSE = 1,355,840.595
+    - RMSE = 1,164,406
+    - R^2 = .560
 
-
-
-https://colab.research.google.com/drive/1p_SwURwFqPGkEK-9YVAWyBgTjcGeDxiL#scrollTo=tbVExVfPTopp&line=1&uniqifier=1
-## Model
-Describe your final model
-Report the most important metrics
-Refer to the metrics to describe how well the model would solve the business problems
+  - The final model chose was the Random Forest Regressor Model with
+    - max_dept: 5
+    - max_features: None
+    - n_estimators: 947
+  - R^2 was test was 56.2% and train was 61.3%
+  - Mean Absolute Error was off by $815.02
+  - Mean Squared Error was $1,349,902.7
+  - Root Mean Squared Error was $1.161.85
+This was the best fitting model.  It a low bias but the higest variance. 
 
 ## Recommendations
----
+  - We have shown what properties help item outlet sales, item MRP and outlet type seem to have the most say in what drives sales.
+  - Larger supermarket type outlets with more complete inventory (food and household) rather than smaller grocery store limipted to food have higher sales.
 
 ### Limitations and Next steps
+More data is needed to make better decision on output sales.  Where and what type of outlet would be the next interesting question to look at
+
 #### For furthe information
 
 
