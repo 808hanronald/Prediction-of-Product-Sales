@@ -33,9 +33,16 @@ https://drive.google.com/file/d/1oA8uMVhONvSH30dmeNfFDewMQSI51DO_/view?usp=drive
 
 ##### Exploring the Data
 
-  - Barplots to view the most infuacal features and higest output sales
+  - Barplots for items we sell
   - Scatter plots for numerical features correlation to sales
-  - And finally which models give us the best R2 score
+
+![item](https://github.com/808hanronald/Prediction-of-Product-Sales/assets/140451609/95dc87c6-dfb1-44b2-8fba-1c61d9fe1ad7)
+  - Count for item we sell
+
+![msrp](https://github.com/808hanronald/Prediction-of-Product-Sales/assets/140451609/d50902fd-057b-4dc3-a03c-a0ef8091cfbb)
+  - Numeric Scatter plot to view the relationship postive correlation between item MSRP and sales
+
+##### Explaing the Data
 
 ![outlet_identifer](https://github.com/808hanronald/Prediction-of-Product-Sales/assets/140451609/1679027d-ff2e-4ba9-a105-ef03fb64192b)
   - This barplot with a stipplot added for clarity show outlet 27 has the highest out put sales
@@ -45,21 +52,26 @@ https://drive.google.com/file/d/1oA8uMVhONvSH30dmeNfFDewMQSI51DO_/view?usp=drive
   - Supermarket Type 3 has the higest sales
   - Grocery Stores have the lowest sales
 
-![item](https://github.com/808hanronald/Prediction-of-Product-Sales/assets/140451609/95dc87c6-dfb1-44b2-8fba-1c61d9fe1ad7)
-  - Count for item we sell
-
 ![importances](https://github.com/808hanronald/Prediction-of-Product-Sales/assets/140451609/974eaa9f-2e57-4173-a54b-3d6744d8db0a)
   - What featurse were important in our Random Tree model
   - Item_MRP had profound effect on our target
 
-![msrp](https://github.com/808hanronald/Prediction-of-Product-Sales/assets/140451609/d50902fd-057b-4dc3-a03c-a0ef8091cfbb)
-  - Numeric Scatter plot to view the relationship
-  - Postive correlation between item MSRP and sales
 
-## Results    
 
- 
+#### ML models used:
+  - Random Forest Regressor
+  - Tuned Random Forese Regressor
+  - Linear Regression
 
+#### Model Evaluated and Results
+
+  - Random Forest Regressor Test
+    - MAE = 815.029
+    - MSE = 1,349,902.7
+    - RMSE = 1,161.853
+    - R^2 = .562
+
+  - Tuned Random Forest Regressor Test
 
 
 
