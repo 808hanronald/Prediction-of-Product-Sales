@@ -29,8 +29,9 @@ https://drive.google.com/file/d/1oA8uMVhONvSH30dmeNfFDewMQSI51DO_/view?usp=drive
 
 **Item_Outlet_Sales:**  *Sales of the product in the particular store. This is the target variable to be predicted.*
 
-## Methods
-  - 
+## The data has been cleaned and processed to view the relationship it has with output sales.  
+
+  -  
   - 
 
      - 
