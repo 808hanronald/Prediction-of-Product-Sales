@@ -66,7 +66,9 @@ https://drive.google.com/file/d/1oA8uMVhONvSH30dmeNfFDewMQSI51DO_/view?usp=drive
   - What feature were important in our Random Tree model
   - Item_MRP had profound effect on our target
 
-![top 15 coeffs](https://github.com/808hanronald/Prediction-of-Product-Sales/assets/140451609/c61ce865-f588-4667-bde4-b3447b376890)
+![top 15 coeffs](https://github.com/808hanronald/Prediction-of-Product-Sales/assets/140451609/23c885c6-f29d-4f6e-b0e2-eab2d95cd755)
+  - What features were important in our Linear Regressor
+  - Outlet 27 and supermarket type 3 were equally importent
 
  
   - Random Forest Regressor Test
