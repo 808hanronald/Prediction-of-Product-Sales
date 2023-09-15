@@ -1,14 +1,16 @@
 # Uncovering properties of product and outlets to increase sales output
-
+---
 ### Analyizing popular products and outlets to increase sales
 Author: Ronald Han
-
+---
 #### Knowing what products to order for a small outlet let alone a large supermarket can be a daunting task, but is crucial for the success of the business.  Understanding why certain products sell well at a particular store can not only stream line your ordering process but also help make infromed decision to guide the way to a higher profit. 
 
 ### Data Source:
+---
 https://drive.google.com/file/d/1oA8uMVhONvSH30dmeNfFDewMQSI51DO_/view?usp=drive_link
 
 ### Data Dictionary:
+---
 **Item_Fat_Content:**  *Whether the product is low-fat or regular*
 
 **Item_Visibility:**  *The percentage of total display area of all products in a store allocated to the particular product*
@@ -32,7 +34,7 @@ https://drive.google.com/file/d/1oA8uMVhONvSH30dmeNfFDewMQSI51DO_/view?usp=drive
 ## The data has been cleaned and processed to view the relationship it has with output sales.  
 
 ##### Exploring the Data
-
+---
   - Barplots for items we sell
   - Scatter plots for numerical features correlation's to sales
 
@@ -43,7 +45,7 @@ https://drive.google.com/file/d/1oA8uMVhONvSH30dmeNfFDewMQSI51DO_/view?usp=drive
   - Numeric Scatter plot to view the relationship's postive correlation between item MSRP and sales
 
 ##### Explaing the Data
-
+---
 ![outlet_identifer](https://github.com/808hanronald/Prediction-of-Product-Sales/assets/140451609/1679027d-ff2e-4ba9-a105-ef03fb64192b)
   - This barplot with a stipplot added for clarity show outlet 27 has the highest out put sales
   - Outlet 10 and 19 have the lowest
@@ -56,12 +58,13 @@ https://drive.google.com/file/d/1oA8uMVhONvSH30dmeNfFDewMQSI51DO_/view?usp=drive
 
 
 #### ML models used:
+ ---
   - Random Forest Regressor
   - Tuned Random Forese Regressor
   - Linear Regression
 
 #### Model Evaluated and Results
-
+---
 ![importances](https://github.com/808hanronald/Prediction-of-Product-Sales/assets/140451609/974eaa9f-2e57-4173-a54b-3d6744d8db0a)
   - What feature were important in our Random Tree model
   - Item_MRP had profound effect on our target
@@ -70,9 +73,7 @@ https://drive.google.com/file/d/1oA8uMVhONvSH30dmeNfFDewMQSI51DO_/view?usp=drive
   - What features were important in our Linear Regressor
   - Outlet 27 and supermarket type 3 were equally importent
   - Size and items sold seem to be factors 
-
- 
-  
+--- 
   - Random Forest Regressor Test
     - MAE = 815.029
     - MSE = 1,349,902.7
@@ -90,7 +91,7 @@ https://drive.google.com/file/d/1oA8uMVhONvSH30dmeNfFDewMQSI51DO_/view?usp=drive
     - MSE = 1,355,840.595
     - RMSE = 1,164,406
     - R^2 = .560
-
+---
   - The final model chose was the Random Forest Regressor Model with
     - max_dept: 5
     - max_features: None
@@ -102,17 +103,25 @@ https://drive.google.com/file/d/1oA8uMVhONvSH30dmeNfFDewMQSI51DO_/view?usp=drive
 This was the best fitting model.  It a low bias but the higest variance. 
 
 ## Recommendations
+---
   - We have shown what properties help item outlet sales, item MRP and outlet type seem to have the most say in what drives sales.
   - Larger supermarket type outlets with more complete inventory (food and household) rather than smaller grocery store limipted to food have higher sales.
 
 ### Limitations and Next steps
+---
 More data is needed to make better decision on output sales.  Where and what type of outlet would be the next interesting question to look at
 
-#### For furthe information
+#### For Further Information
+---
+For any additional questions, please contact:
+  - Ronald Han (Data Analyst)
+  - 312superK@gmail.com
 
+##### Releases
+ No releases published
 
-
-
+##### Packages 
+No packages published
 
 
 
